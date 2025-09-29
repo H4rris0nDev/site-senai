@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            text-align: center; /* substitui o <center> */
+        }
+        .poema-box {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+        }
+        fieldset {
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <br><br><br>
+    <div class="poema-box">
+        <br><br>
+        <img src="./images/01.png" alt="Logo" width="200px">
+        <br><br>
+        
+        <form action="#" method="post">
+            <fieldset>
+                <legend>CADASTRO DE ALUNOS</legend>
+                <h2>DADOS DO ALUNO</h2>
+                
+                <label for="nome">NOME -</label>
+                <input type="text" id="nome" name="nome"><br><br>
+
+                <label for="idade">IDADE -</label>
+                <input type="number" id="idade" name="idade" max="90" min="15"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>DADOS PROFISSIONAIS</legend>
+                <h4>ESCOLARIDADE</h4>
+                <select name="ensino">
+                    <option value="fundamental">ENSINO FUNDAMENTAL</option>
+                    <option value="medio">ENSINO MÉDIO</option>
+                    <option value="superior">ENSINO SUPERIOR</option>
+                    <option value="" selected>NENHUM SELECIONADO</option>
+                </select>
+                
+                <h4>Área de Interesse</h4>
+                <label><input type="radio" name="area" value="informatica"> Informática</label><br>
+                <label><input type="radio" name="area" value="administracao"> Administração</label><br>
+                <label><input type="radio" name="area" value="eletronica"> Eletrônica</label><br>
+            </fieldset>
+
+            <br>
+            <a href="index.html"><button type="submit">ENVIAR CADASTRO</button></a>
+            <button type="reset">LIMPAR</button>
+        </form>
+    </div>
+</body>
+</html>

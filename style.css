@@ -1,0 +1,73 @@
+body {
+    background-color: #000000;
+    font-family:fantasy;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-style: oblique;
+}
+h1{
+    width:auto;
+    font-family:fantasy;
+    color: #E43636;
+}
+
+label{
+    color: #E43636;
+    display: block;
+    margin-bottom: 8px;
+    font-family:fantasy;
+}
+legend{
+        width: auto;
+        font-family: fantasy;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.poema-box {
+    width: 300px;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #000000b3;
+    box-shadow: 0px 0px 30px rgba(186, 0, 0, 0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+img{
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #000000b3;
+    box-shadow: 0px 0px 20px rgb(248, 0, 0);
+}
+.botao-link{
+    width: 200px;
+    padding: 5px;
+    border: 2px solid #000000 ;
+    border-radius: 5px;
+    background-color: #E43636;
+    font-weight: bold;
+}
+
+a{
+    color: #000000;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #E43636;
+    text-decoration: none;
+    font-family: fantasy;
+    text-decoration: none;
+}
+h4{
+        width: auto;
+        font-family: fantasy;
+        color: #E43636
+}
